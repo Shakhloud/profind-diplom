@@ -1,0 +1,50 @@
+.wrapper {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc {
+    font-size: 18px;
+    padding: 40px;
+}
+
+.logo {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+}
+
+.main {
+    margin-top: 40px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn:not(:last-child) {
+    margin-right: 40px;
+}

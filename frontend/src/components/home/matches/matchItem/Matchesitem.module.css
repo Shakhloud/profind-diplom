@@ -1,0 +1,29 @@
+.main {
+    max-width: 600px;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+.shortInfo {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.btn {
+    display: inline-block;
+    width: 150px;
+    font-weight: 700;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s all;
+    color: #555555;
+}
+
+.btn_check:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #555555;
+    transition: 0.3s all;
+}

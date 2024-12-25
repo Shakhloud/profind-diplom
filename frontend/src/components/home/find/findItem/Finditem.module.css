@@ -1,0 +1,30 @@
+.item {
+    text-align: center;
+    margin: 10px auto 0 auto;
+    width: 500px;
+    padding: 20px;
+    color: #555555;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    height: auto;
+    outline: 0;
+    font-size: 16px;
+}
+.item:first-child {
+    margin-top: 100px;
+}
+.itemWrapper {
+    margin-top: 65px;
+}
+.itemLabel {
+    display: block;
+    margin-left: 40%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

@@ -1,0 +1,40 @@
+.btn {
+    display: inline-block;
+    width: 150px;
+    font-weight: 700;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s all;
+    color: #555555;
+}
+.btn:hover {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #555555;
+    transition: 0.3s all;
+}
+.btnsWrapper {
+    margin-top: 30px;
+    margin-left: 27%;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.profile_span {
+    color: red;
+    cursor: pointer;
+
+}
+.notFound1 {
+    margin: 20% 10%;
+    font-weight: 700;
+    font-size: 20px;
+}
+.notFound {
+    margin: 20% 30%;
+    font-weight: 700;
+    font-size: 20px;
+}

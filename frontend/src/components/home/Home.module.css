@@ -1,0 +1,79 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.nav__list {
+    margin-top: 50px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.activeLink {
+    display: inline-block;
+    padding: 1.1em;
+    transition: all .25s ease-in-out;
+    color: #555;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.link_nonclick {
+    display: block;
+    padding: .75em 1.5em;
+    transition: all .25s ease-in-out;
+    color: #555;
+}
+.link_span {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5px
+}
+.link {
+    display: block;
+    padding: 1.5em ;
+    transition: all .25s ease-in-out;
+    color: #555;
+    text-decoration: none;
+}
+.logout {
+    display: block;
+    padding: 1.5em 0.5em;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    color: #555;
+}
+.logout:active {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.nav__list__item {
+    border-style: solid;
+    border-width: 0 0 1px;
+}
+
+.nav {
+    background-color: #f5f5f5;
+}
+
+.nav .nav__list__item {
+    border-color: #e5e5e5;
+}
+
+.main {
+    margin-top: 70px;
+    width: 100%;
+    height: 70vh;
+    border-style: solid;
+    border-width: 1px 0 1px;
+    border-color: #e5e5e5;
+    border-radius: 15px;
+}
+
+.link_span_username {
+    font-size: 16px;
+    font-weight: 700;
+}
